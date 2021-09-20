@@ -37,7 +37,7 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
   - BRL
   - BTC
 
-- #### 1.5.1. Dados Indispensáveis
+- #### 1.4.1. Dados Indispensáveis
     - ID do Ativo (BRL, BTC)
     - ID do cliente
     - Saldo
@@ -52,7 +52,7 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
     A operação de deposito deve adicionar saldo a Wallet BRL do cliente para que ele possa comprar Bitcoin
 
 - ### Saque
-    Para o cliente solicitar é preciso ter saldo em sua Wallet (BRL), as maneiras de ter o saldo em sua Wallet (BRl) é por meio 
+    Para o cliente solicitar é preciso ter saldo em sua Wallet (BRL), as maneiras de ter o saldo em sua Wallet (BRL) é por meio 
     de depósito ou na venda do seu ativo (BTC)
 
     * quando o saque é solicitado, é requerido que o valor seja bloqueado da sua Wallet (BRL).
@@ -87,9 +87,11 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
 - Não se esqueça de criar um README explicando como faremos para rodar sua aplicação e demais informações que ache necessário.
 - Poderá ser utilizado qualquer banco de dados SQL ou NoSQL.
 - As transações devem ser processadas após um minuto de sua criação
+- Documentação da api
 
 ## 3. Seria legal se você utilizasse
 
+- Filas
 - Docker.
 - Design Patterns.
 - Testes Unitários e de Integração.
@@ -98,7 +100,7 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
 
 Avaliaremos seu desafio de código com base em alguns atributos de qualidade do sistema. Alguns nós consideramos indispensáveis, como correção, e serão avaliados em uma abordagem binária (funciona / segue ou não). Os outros, por não serem objetivos, não poderão sozinhos desabonar seu desafio. Estes são todos os atributos de qualidade que esperamos que você aborde:
 
-- Correção: Seu código deve seguir todos os requisitos apresentados no item 1 e seus subsequentes até 1.4.2.
+- Correção: Seu código deve seguir todos os requisitos apresentados no item 1 e seus subsequentes até 1.5.2.
 - Desempenho: Quanto mais dados você puder lidar e mais rápido você consultar, melhor.
 - Testabilidade: Quão bem testado seu código é e quão fácil é adicionar novos testes ao seu código.
 - Capacidade de manutenção: Como é fácil adicionar recursos extras ao seu código.
